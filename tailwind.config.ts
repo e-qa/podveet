@@ -13,6 +13,9 @@ const config: Config = {
         primary_dark: "#14142B",
         secondary: "#1AD993",
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],
