@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes ani-1 {
+  0% {
+    transform: scaleY(100%);
+  }
+  100% {
+    transform: scaleY(-100%);
+  }
+}
+.sec-2 {
+  animation: ani-1 2s linear infinite;
+}
+
+.sec-4 {
+  animation: ani-1 4s linear infinite;
+}
+
+.sec-6 {
+  animation: ani-1 6s linear infinite;
+}
+
+.sec-8 {
+  animation: ani-1 8s linear infinite;
+}
+.sec-10 {
+  animation: ani-1 10s linear infinite;
+}
+.sec-12 {
+  animation: ani-1 12s linear infinite;
+}
