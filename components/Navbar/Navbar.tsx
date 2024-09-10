@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="py-3 relative">
+    <header className="py-8 relative">
       <div className="container">
         <div className="flex items-center justify-between">
           <div>
@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
               className={`${
                 isMenuOpen
                   ? "absolute flex flex-col right-0 top-20 gap-5 bg-black  text-white w-full"
-                  : "hidden lg:flex gap-4"
+                  : "hidden lg:flex gap-6"
               }`}
             >
               {Menu.map((item) => (

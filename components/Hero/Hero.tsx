@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex items-center flex-col justify-center min-h-[600px]">
+    <div className="flex items-center flex-col justify-center min-h-[700px]">
       <div className="container">
         <div className=" grid grid-cols-1 md:grid-cols-2">
           <div className="flex flex-col gap-10">
@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="w-10 bg-primary h-64  sec-12"></div>
           </div>
         </div>
-        <div className="mt-32 flex items-center justify-around">
+        <div className="mt-32 flex items-center justify-between">
           <h2 className="font-bold text-xl">Podcast Available On</h2>
           <div className="flex items-center gap-1">
             <Image src="/images/apple.svg" alt="test" width={30} height={30} />
